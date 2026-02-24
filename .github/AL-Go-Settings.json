@@ -11,5 +11,7 @@
   {
     "EnvironmentName": "Production",
     "continuousDeployment": true
-  }
+  },
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
