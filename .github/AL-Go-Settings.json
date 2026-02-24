@@ -2,17 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.2/.Modules/settings.schema.json",
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-   "DeployToMicrodyn": 
-  {
+  "DeployToMicrodyn": {
     "EnvironmentName": "Microdyn",
     "continuousDeployment": true
   },
-  "DeployToProduction": 
-  {
+  "DeployToProduction": {
     "EnvironmentName": "Production",
     "continuousDeployment": true
   },
   "CurrentSchedule": "0 2 * * *",
   "NextMinorSchedule": "0 2 * * 6",
-  "NextMajorSchedule": "0 2 * * 0"
+  "NextMajorSchedule": "0 2 * * 0",
+  "templateSha": "62683d6c71618bc3249ff55a950fd8ab3a380925"
 }
